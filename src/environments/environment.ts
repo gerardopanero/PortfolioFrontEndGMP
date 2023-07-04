@@ -1,4 +1,7 @@
 export const environment = {
+  production: false,
+    URL: 'http://localhost:8080/',
+
   firebase: {
     projectId: 'portfoliofrontendgmp',
     appId: '1:524382906580:web:9e5c764b5388e323b1f341',
@@ -9,4 +12,6 @@ export const environment = {
     messagingSenderId: '524382906580',
     measurementId: 'G-SX1WGC2010',
   },
+
+
 };
